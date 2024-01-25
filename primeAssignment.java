@@ -72,7 +72,6 @@ public class primeAssignment
         // Using trial division method for checking primality
         private boolean isPrime(long number)
         {
-            //if (number <= 1) return false;
             for (long i = 2; i * i <= number; i++)
             {
                 if (number % i == 0) return false;
